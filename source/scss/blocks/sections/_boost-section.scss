@@ -1,0 +1,26 @@
+.boost-section{
+        padding: 18px 0 116px;
+        min-height: 100dvh;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        .container {
+          min-height: 100%;
+        }
+      
+        &__box {
+          display: flex;
+          flex-direction: column;
+          min-height: calc(100dvh - 116px - 18px);
+          grid-gap: 17px;
+          padding-bottom: 15px;
+        }
+   
+        &__inner{
+          display: flex;
+          flex-direction: column;
+          grid-gap: 10px;
+          margin-bottom: 4px;
+        }
+}

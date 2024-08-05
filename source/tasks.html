@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+ 
+  <main>
+    <section class="task-section">
+      <div class="container">
+        <div class="task-section__box">
+          <div class="main-top">
+            <h1 class="title">New tasks</h1>
+            <p>Complete tasks and get bonuses</p>
+          </div>
+             
+          <ul class="tasks-list">
+            <li class="tasks-list__item">
+              <div class="task-card">
+                <span class="task-card__icon">
+                  <img width='29' height='29' src="./img/index/img1.png" alt="icon">
+                </span>
+
+                <div class="task-card__box">
+                  <span class="task-card__title">Invite 10 friends</span>
+                  <span class="task-card__mining">
+                    <span class="task-card__mining-icon">
+                     <img width="20" height="20" src="./img/index/coin.png" alt="image">
+                    </span>
+                    <span class="task-card__value"><b>+500</b> DOODL</span>
+                  </span>
+                </div>
+                <button class="main-btn main-btn--mode">Start</button>
+              </div>
+            </li>
+            <li class="tasks-list__item">
+              <div class="task-card">
+                <span class="task-card__icon">
+                  <img width='41' height='41' src="./img/index/img2.png" alt="icon">
+                </span>
+
+                <div class="task-card__box">
+                  <span class="task-card__title">50 Days Reward</span>
+                  <span class="task-card__mining">
+                    <span class="task-card__mining-icon">
+                     <img width="20" height="20" src="./img/index/coin.png" alt="image">
+                    </span>
+                    <span class="task-card__value"><b>+500</b> DOODL</span>
+                  </span>
+                </div>
+                <button class="main-btn main-btn--mode">Start</button>
+              </div>
+            </li>
+            <li class="tasks-list__item">
+              <div class="task-card">
+                <span class="task-card__icon">
+                  <img width='39' height='39' src="./img/index/img3.png" alt="icon">
+                </span>
+
+                <div class="task-card__box">
+                  <span class="task-card__title">Follow us on X</span>
+                  <span class="task-card__mining">
+                    <span class="task-card__mining-icon">
+                     <img width="20" height="20" src="./img/index/coin.png" alt="image">
+                    </span>
+                    <span class="task-card__value"><b>+500</b> DOODL</span>
+                  </span>
+                </div>
+                <button class="main-btn main-btn--mode">Start</button>
+              </div>
+            </li>
+            <li class="tasks-list__item">
+              <div class="task-card">
+                <span class="task-card__icon">
+                  <img width='29' height='29' src="./img/index/img4.png" alt="icon">
+                </span>
+
+                <div class="task-card__box">
+                  <span class="task-card__title">Watch Youtube Video</span>
+                  <span class="task-card__mining">
+                    <span class="task-card__mining-icon">
+                     <img width="20" height="20" src="./img/index/coin.png" alt="image">
+                    </span>
+                    <span class="task-card__value"><b>+500</b> DOODL</span>
+                  </span>
+                </div>
+                <button class="main-btn main-btn--mode">Start</button>
+              </div>
+            </li>
+            <li class="tasks-list__item">
+              <div class="task-card">
+                <span class="task-card__icon">
+                  <img width='41' height='41' src="./img/index/img5.png" alt="icon">
+                </span>
+
+                <div class="task-card__box">
+                  <span class="task-card__title">Farm 10,000 coins</span>
+                  <span class="task-card__mining">
+                    <span class="task-card__mining-icon">
+                     <img width="20" height="20" src="./img/index/coin.png" alt="image">
+                    </span>
+                    <span class="task-card__value"><b>+500</b> DOODL</span>
+                  </span>
+                </div>
+                <button class="main-btn main-btn--mode">Start</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="index.html" class="bar__link active">
+        <span class="bar__icon">
+          <svg width='31' height='26'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Earn
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="wallet.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='31' height='31'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Friends
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="referal.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='33' height='30'>
+            <use href='img/sprite/sprite.svg#icon3'></use>
+          </svg>
+        </span>
+        Wallet
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='32' height='27'>
+            <use href='img/sprite/sprite.svg#icon4'></use>
+          </svg>
+        </span>
+        Tasks
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='27' height='31'>
+            <use href='img/sprite/sprite.svg#icon5'></use>
+          </svg>
+        </span>
+        Leaders
+      </a>
+    </li>
+  </ul>
+  
+  @include('partials/modals.html')
+</body>
+<script src="js/main.js"></script>
+
+</html>

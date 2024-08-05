@@ -1,0 +1,33 @@
+.task-section {
+  padding: 18px 0 116px;
+  min-height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  .container {
+    min-height: 100%;
+  }
+
+  .main-top{
+    p{
+      max-width: 156px;
+    }
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 116px - 18px);
+    grid-gap: 24px;
+    padding-bottom: 15px;
+  }
+
+  &--mode{
+    padding: 35px 0 116px;
+    
+    .steps-list{
+      grid-gap: 13px;
+    }
+  }
+}

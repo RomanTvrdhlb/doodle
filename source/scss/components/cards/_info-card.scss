@@ -1,0 +1,52 @@
+.info-card{
+    display: flex;
+    grid-gap: 12px;
+    border-radius: 18px;
+    padding: 10px 22px 20px 12px;
+    background: var(--gr-d);
+    width: 100%;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 6px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    &__value{
+        font-weight: 400;
+        font-size: 14px;
+        text-align: right;
+    }
+
+    &__title{
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    &__inner{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__icon{
+        background: var(--gr-d);
+        border: 1px solid var(--br-a);
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        img,svg{
+            width: 32px;
+            height: 32px;
+            display: flex;
+        }
+    }
+}

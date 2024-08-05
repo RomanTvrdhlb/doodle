@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+  
+  <main>
+    
+    <section class="boost-section">
+      <div class="container">
+        <div class="boost-section__box">
+          <div class="main-top">
+            <h1 class="title">Buy boost</h1>
+          </div>
+
+          <form class="main-form" data-parent>
+            <span class="subtitle">Payment:</span>
+
+            <div class="main-form__box">
+              <button class="main-btn main-btn--mode" data-copy-btn>Generate adress</button>
+              <p>No minimal amount</p>
+            </div>
+          </form>
+
+          <ul class="steps-list">
+            <li class="steps-list__item">
+              <div class="step-card">
+                <p>Put button “Generate adress”</p>
+              </div>
+            </li>
+            <li class="steps-list__item">
+              <div class="step-card">
+                <p>Copy the wallet from the input</p>
+              </div>
+            </li>
+            <li class="steps-list__item">
+              <div class="step-card">
+                <p>Send the required amount to this wallet</p>
+              </div>
+            </li>
+            <li class="steps-list__item">
+              <div class="step-card">
+                <p>Funds are automatically credited to your boost</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="index.html" class="bar__link active">
+        <span class="bar__icon">
+          <svg width='31' height='26'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Earn
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="wallet.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='31' height='31'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Friends
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="referal.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='33' height='30'>
+            <use href='img/sprite/sprite.svg#icon3'></use>
+          </svg>
+        </span>
+        Wallet
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='32' height='27'>
+            <use href='img/sprite/sprite.svg#icon4'></use>
+          </svg>
+        </span>
+        Tasks
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='27' height='31'>
+            <use href='img/sprite/sprite.svg#icon5'></use>
+          </svg>
+        </span>
+        Leaders
+      </a>
+    </li>
+  </ul>
+  
+  @include('partials/modals.html')
+</body>
+<script src="js/main.js"></script>
+
+</html>

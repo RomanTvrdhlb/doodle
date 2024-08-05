@@ -1,0 +1,23 @@
+.wallet-section{
+    padding: 17px 0 116px;
+    min-height: 100dvh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+    .container{
+        min-height: 100%;
+    }
+  
+    &__box{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+        min-height: calc(100dvh - 116px - 7px);
+          grid-gap: 18px;
+
+          .history-list{
+            margin-top: 14px;
+          }
+    }
+  }

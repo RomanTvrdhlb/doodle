@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+  
+  <main>
+    
+    <section class="referral-section referral-section--mode">
+      <div class="container">
+        <div class="referral-section__box">
+
+          <div class="main-top">
+            <h1 class="title">Buy boost</h1>
+          </div>
+
+          <div class="main-referral">
+            <div class="main-referral__box main-referral__box--mode">
+              <span class="subtitle">Payment details:</span>
+              <ul class="main-referral__list main-referral__list--mode">
+                <li class="main-referral__item">
+                  <span class="main-referral__name">Total profit:</span>
+                  <span class="main-referral__value">~<b>17,267</b> TON</span>
+                </li>
+                <li class="main-referral__item">
+                  <span class="main-referral__name">Daily profit:</span>
+                  <span class="main-referral__value">~<b>230</b> TON</span>
+                </li>
+                <li class="main-referral__item">
+                  <span class="main-referral__name">Duration:</span>
+                  <span class="main-referral__value"><b>30</b> Days</span>
+                </li>
+                <li class="main-referral__item">
+                  <span class="main-referral__name">Amount:</span>
+                  <span class="main-referral__value"><b>1,320.00</b> TON</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+             
+
+              <form class="invite" data-parent-copy>
+                <span class="subtitle">Wallet:</span>
+    
+                <label for="copy" class="invite__label">
+                  <input type="text" name="copy" id="copy" class="invite__input" value="https://t.me/Doggeboost_bot?start=19353">
+                </label>
+    
+                <button class="main-btn" data-copy>Copy Wallet</button>
+              </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="index.html" class="bar__link active">
+        <span class="bar__icon">
+          <svg width='31' height='26'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Earn
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="wallet.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='31' height='31'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Friends
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="referal.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='33' height='30'>
+            <use href='img/sprite/sprite.svg#icon3'></use>
+          </svg>
+        </span>
+        Wallet
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='32' height='27'>
+            <use href='img/sprite/sprite.svg#icon4'></use>
+          </svg>
+        </span>
+        Tasks
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='27' height='31'>
+            <use href='img/sprite/sprite.svg#icon5'></use>
+          </svg>
+        </span>
+        Leaders
+      </a>
+    </li>
+  </ul>
+  
+  @include('partials/modals.html')
+</body>
+<script src="js/main.js"></script>
+
+</html>

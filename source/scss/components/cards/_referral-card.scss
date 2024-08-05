@@ -1,0 +1,21 @@
+.referral-card{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3px;
+    background: rgba(var(--cl-f),1.0);
+    padding: 9px 8px 13px 15px;
+
+    @include gradient-border(var(--gr-j),1px);
+
+    &__value{
+        font-weight: 700;
+        font-size: 21px;
+        color: rgba(var(--cl-c),1.0);
+
+        b{
+            font-size: 14px;
+        }
+    }
+
+}

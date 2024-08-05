@@ -1,0 +1,19 @@
+.withdraw-section {
+  padding: 18px 0 116px;
+  min-height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  .container {
+    min-height: 100%;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 116px - 7px);
+    grid-gap: 25px;
+    padding-bottom: 15px;
+  }
+}

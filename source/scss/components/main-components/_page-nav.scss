@@ -1,0 +1,46 @@
+.page-nav{
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    align-self: center;
+
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid var(--br-b);
+        border-radius: 4px;
+        background: rgba(var(--bg-e),1.0);
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: rgba(var(--cl-a),1.0);
+        transition: all .3s;
+
+        &.active{
+            color: rgba(var(--cl-c),1.0);
+            border-color: var(--br-a);
+        }
+
+        &:disabled{
+            opacity: .5;
+            pointer-events: none;
+        }
+
+        &:hover{
+            &:not(.active){
+             opacity: .7;
+            }
+        }
+
+        &--prev{
+            svg{
+                transform: scaleX(-1);
+            }
+        }
+    }
+}

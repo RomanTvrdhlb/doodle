@@ -1,0 +1,11 @@
+.steps-list{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 8px;
+    counter-reset: li;
+
+    &__item{
+        width: 100%;
+        counter-increment: li;
+    }
+}

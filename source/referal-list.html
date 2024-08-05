@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+ 
+  <main>
+    <section class="referral-section">
+      <div class="container">
+        <div class="referral-section__box">
+          <div class="main-top">
+            <h1 class="title">Referral list</h1>
+            <p>Your friends</p>
+          </div>
+
+          <div class="referral-section__wrapp">
+            <ul class="history-list">
+              <li class="history-list__row history-list__row--head">
+                <span class="history-list__name">Date</span>
+                <span class="history-list__name">User:</span>
+                <span class="history-list__name">Level:</span>
+                <span class="history-list__name">Reward:</span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Creosun</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>50 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Osnova</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>20 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Soinwor..</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>21 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Soinwor..</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>12 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Soinwor..</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>18 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Soinwor..</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>15 trx</b></span>
+              </li>
+              <li class="history-list__row">
+                <span class="history-list__value">12.07/18:57</span>
+                <span class="history-list__value"><b>Soinwor..</b></span>
+                <span class="history-list__value">1 level</span>
+                <span class="history-list__value"><b>10 trx</b></span>
+              </li>
+            </ul>
+
+            <ul class="page-nav">
+              <li class="page-nav__item">
+                <button class="page-nav__btn page-nav__btn--prev" disabled>
+                  <svg width='9' height='12'>
+                    <use href='img/sprite/sprite.svg#arrow'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="page-nav__item">
+                <button class="page-nav__btn active">
+                  1
+                </button>
+              </li>
+              <li class="page-nav__item">
+                <button class="page-nav__btn">
+                  2
+                </button>
+              </li>
+              <li class="page-nav__item">
+                <button class="page-nav__btn">
+                  ...
+                </button>
+              </li>
+              <li class="page-nav__item">
+                <button class="page-nav__btn">
+                  9
+                </button>
+              </li>
+              <li class="page-nav__item">
+                <button class="page-nav__btn">
+                  10
+                </button>
+              </li>
+              <button class="page-nav__btn page-nav__btn--next">
+                <svg width='9' height='12'>
+                  <use href='img/sprite/sprite.svg#arrow'></use>
+                </svg>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="index.html" class="bar__link active">
+        <span class="bar__icon">
+          <svg width='31' height='26'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Earn
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="wallet.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='31' height='31'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Friends
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="referal.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='33' height='30'>
+            <use href='img/sprite/sprite.svg#icon3'></use>
+          </svg>
+        </span>
+        Wallet
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='32' height='27'>
+            <use href='img/sprite/sprite.svg#icon4'></use>
+          </svg>
+        </span>
+        Tasks
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="tasks.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='27' height='31'>
+            <use href='img/sprite/sprite.svg#icon5'></use>
+          </svg>
+        </span>
+        Leaders
+      </a>
+    </li>
+  </ul>
+  
+  @include('partials/modals.html')
+</body>
+<script src="js/main.js"></script>
+
+</html>

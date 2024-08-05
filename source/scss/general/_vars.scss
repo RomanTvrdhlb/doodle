@@ -1,0 +1,66 @@
+// --------------- hex to rgba mixin ---------------
+@function HexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+:root {
+  // --------------- default global variables ---------------
+  --error-bg: #d01f1f;
+  --body-bg: #080524;
+  --body-font-size: 20px;
+  --content-width: 1170px;
+
+  --container-offset: clamp(21px, 2.0513vw, 24px);
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // --------------- default scroll variables ---------------
+  --scrollbar-thumb: #502a0c;
+  --scrollbar-track: #fdefc8;
+  --scrollbar-track-hover: transparent;
+
+  // --------------- default font-family variables ---------------
+
+  --font-family: "BasisGrotesquePro", sans-serif; // var(--font-family);
+  --second-family: "sf-pro-display", sans-serif; // var(--second-family);
+
+  // --------------- default text color variables ---------------
+  --cl-a: #{HexToRGB(#ffffff)}; // rgba(var(--cl-a),1.0);
+  --cl-b: #{HexToRGB(#000000)}; // rgba(var(--cl-b),1.0);
+  --cl-c: #{HexToRGB(#0173fa)}; // rgba(var(--cl-c),1.0);
+  --cl-d: #{HexToRGB(#5b648a)}; // rgba(var(--cl-d),1.0);
+  --cl-e: #{HexToRGB(#7daae0)}; // rgba(var(--cl-e),1.0);
+  --cl-f: #{HexToRGB(#090625)}; // rgba(var(--cl-f),1.0);
+  --cl-g: #{HexToRGB(  #fcdb51)}; // rgba(var(--cl-g),1.0);
+
+  // --------------- default background color variables ---------------
+  --bg-a: #{HexToRGB(#ffffff)}; // rgba(var(--bg-a),1.0);
+  --bg-b: #{HexToRGB(#000000)}; // rgba(var(--bg-b),1.0);
+  --bg-c: #{HexToRGB(#0173fa)}; // rgba(var(--bg-c),1.0);
+  --bg-d: #{HexToRGB(#080524)}; // rgba(var(--bg-d),1.0);
+  --bg-e: #{HexToRGB(#15164a)}; // rgba(var(--bg-e),1.0);
+  --bg-f: #{HexToRGB(#131343)}; // rgba(var(--bg-f),1.0);
+  --bg-g: #{HexToRGB(#090625)}; // rgba(var(--bg-g),1.0);
+  --bg-h: #{HexToRGB(#080524)}; // rgba(var(--bg-h),1.0);
+  
+  
+  // --------------- default border color variable ---------------
+  --br-a: #0173fa; // var(--br-a);
+  --br-b: #131343; // var(--br-b);
+
+ // --------------- default gradient color variable ---------------
+ --gr-a: linear-gradient(202deg, #0f1036 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-a);
+ --gr-b: linear-gradient(318deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-b);
+ --gr-c: linear-gradient(198deg, #0f1036 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-c);
+ --gr-d: linear-gradient(0deg, #0171fae8 0%, rgba(43, 46, 156, 0) 85%); // var(--gr-d);
+ --gr-e: linear-gradient(270deg, rgba(1, 115, 250, .8) 0%, rgba(43, 46, 156, 0) 50%); // var(--gr-e);
+ --gr-f: linear-gradient(113deg, #0173fa 0%, rgba(1, 68, 148, 0) 100%); // var(--gr-f);
+ --gr-g: linear-gradient(362deg, rgba(1, 115, 250, .9) 0%, rgba(43, 46, 156, 0) 91%); // var(--gr-g);
+ --gr-h: linear-gradient(311deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-h);
+ --gr-i: linear-gradient(226deg, rgba(1, 115, 250, .7) 0%, rgba(43, 46, 156, 0) 60%); // var(--gr-i);
+ --gr-j: linear-gradient(113deg, #0173fa 0%, rgba(1, 68, 148, 0) 100%); // var(--gr-j);
+ --gr-k: linear-gradient(306deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-k);
+ --gr-l: linear-gradient(226deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-l);
+ --gr-m:  linear-gradient(90deg, rgba(1, 115, 250, .8) 0%, rgba(43, 46, 156, 0) 55%); // var(--gr-m);
+ --gr-n:  linear-gradient(329deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-n);
+
+}       
