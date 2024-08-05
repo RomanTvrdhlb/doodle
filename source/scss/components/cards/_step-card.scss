@@ -9,6 +9,7 @@
     width: 100%;
     background: var(--gr-a);
     position: relative;
+    overflow: hidden;
     
     &:before{
         position: absolute;

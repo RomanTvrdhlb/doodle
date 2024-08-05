@@ -17,16 +17,16 @@
       padding-bottom: 15px;
   }
 
-  // &__wrapp{
-  //   padding-bottom: 15px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   grid-gap: 18px;
+  &__wrapp{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 18px;
 
-  //   .history-list{
-  //     margin-top: 8px;
-  //   }
-  // }
+    .history-list{
+      margin-top: 8px;
+    }
+  }
 
   &--mode{
     padding: 17px 0 116px;

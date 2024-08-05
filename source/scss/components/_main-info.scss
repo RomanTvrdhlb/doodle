@@ -85,43 +85,68 @@
         b{
             font-weight: 500;
         }
+
+        i{
+            font-style: normal;
+            color: rgba(var(--cl-c),1.0);
+        }
     }
 
-    // &__mining{
-    //     display: flex;
-    //     align-items: center;
-    //     grid-gap: 5px;
-    // }
+    &__mining{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-family: var(--font4);
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 78%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        
+        img{
+            width: 41px;
+            display: flex;
+            aspect-ratio: 1;
+            margin-top: -3px;
+            margin-right: 5px;
+        }
 
-    // &__currency{
-    //     font-weight: 500;
-    //     font-size: 16px;
-    //     color: rgba(var(--cl-d),1.0);
-    // }
+        .main-info__value{
+            font-family: var(--font4);
+            font-weight: 800;
+            b{
+                font-family: var(--font4);
+                font-weight: 800;
+            }
+    
+            i{
+                font-style: normal;
+                font-family: var(--font4);
+                font-weight: 800;
+                color: rgba(var(--cl-c),1.0);
+            }
+        }
+    }
+ 
 
-    // &__btns{
-    //     display: flex;
-    //     align-items: center;
-    //     margin-top: 12px;
-    //     grid-gap: 10px;
-    //     width: 100%;
+    &--mode{
+        grid-gap: 13px;
+        padding: 16px 49px 39px;
+        justify-content: center;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='347' height='148' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Cmask id='d' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M21 0C9.402 0 0 9.402 0 21v106c0 11.598 9.402 21 21 21h68.4503C96.3813 148 102 142.381 102 135.45c0-6.931 5.619-12.549 12.55-12.549h121.9c6.931 0 12.55 5.618 12.55 12.549 0 6.931 5.619 12.55 12.55 12.55H326c11.598 0 21-9.402 21-21V21c0-11.598-9.402-21-21-21H21Z' clip-rule='evenodd'/%3E%3C/mask%3E%3Cpath fill='url(%23b)' fill-rule='evenodd' d='M21 0C9.402 0 0 9.402 0 21v106c0 11.598 9.402 21 21 21h68.4503C96.3813 148 102 142.381 102 135.45c0-6.931 5.619-12.549 12.55-12.549h121.9c6.931 0 12.55 5.618 12.55 12.549 0 6.931 5.619 12.55 12.55 12.55H326c11.598 0 21-9.402 21-21V21c0-11.598-9.402-21-21-21H21Z' clip-rule='evenodd'/%3E%3Cpath fill='url(%23c)' d='M1 21C1 9.9543 9.9543 1 21 1v-2C8.8497-1-1 8.8497-1 21h2Zm0 106V21h-2v106h2Zm20 20c-11.0457 0-20-8.954-20-20h-2c0 12.15 9.8497 22 22 22v-2Zm68.4503 0H21v2h68.4503v-2Zm25.0997-23.099h121.9v-2h-121.9v2ZM326 147h-64.45v2H326v-2Zm20-20c0 11.046-8.954 20-20 20v2c12.15 0 22-9.85 22-22h-2Zm0-106v106h2V21h-2ZM326 1c11.046 0 20 8.9543 20 20h2c0-12.1503-9.85-22-22-22v2ZM21 1h305v-2H21v2Zm227 134.45c0 7.484 6.066 13.55 13.55 13.55v-2c-6.379 0-11.55-5.171-11.55-11.55h-2Zm-11.55-11.549c6.379 0 11.55 5.171 11.55 11.549h2c0-7.483-6.066-13.549-13.55-13.549v2ZM103 135.45c0-6.378 5.171-11.549 11.55-11.549v-2c-7.484 0-13.55 6.066-13.55 13.549h2ZM89.4503 149C96.9336 149 103 142.934 103 135.45h-2c0 6.379-5.171 11.55-11.5497 11.55v2Z' mask='url(%23d)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='b' x1='251.745' x2='73.081' y1='13.1556' y2='213.221' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%230F1036'/%3E%3Cstop offset='1' stop-color='%232B2E9C' stop-opacity='0'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='434' x2='-46.7925' y1='153.626' y2='-135.812' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%230173FA'/%3E%3Cstop offset='1' stop-color='%232B2E9C' stop-opacity='0'/%3E%3C/linearGradient%3E%3Cfilter id='a' width='355' height='156' x='-4' y='-4' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeGaussianBlur in='BackgroundImageFix' stdDeviation='2'/%3E%3CfeComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_90_2120'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_backgroundBlur_90_2120' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        border-radius: 21px 21px 0 0;
+        min-height: Min(38.889vw, 224px);
 
-    //     .main-btn{
-    //         width: 100%;
-    //     }
-    // }
-
-    // &--mode{
-    //     grid-gap: 10px;
-    //     padding: 21px 30px 7px;
-    //     .main-btn{
-    //         margin-bottom: 3px;
-    //         width: 100%;
-    //         max-width: 576px;
-    //     }
-
-    //     p{
-    //         font-weight: 500;
-    //     }
-    // }
+        &::before{
+            content: none;
+        }
+        
+        button{
+            max-width: 248px;
+        }
+    }
 }
