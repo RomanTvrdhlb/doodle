@@ -10,16 +10,16 @@
   }
 }
 
-@include font-face("sf-pro-display",  "sf-pro-display-regular", 400, normal);
-@include font-face("sf-pro-display",  "sf-pro-display-medium", 500, normal);
-@include font-face("sf-pro-display",  "sf-pro-display-semibold", 600, normal);
-@include font-face("sf-pro-display",  "sf-pro-display-bold", 700, normal);
+@include font-face("Rubik",  "RubikRegular", 400, normal);
+@include font-face("Rubik",  "RubikMedium", 500, normal);
+@include font-face("Rubik",  "RubikBold", 700, normal);
 
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Regular", 400, normal);
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Medium", 500, normal);
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Bold", 700, normal);
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Black", 900, normal);
 
+@include font-face("JetBrainsMono",  "JetBrainsMono-ExtraBold", 800, normal);
 
 // 100 – Thin || Hairline
 // 200 – Extra Light || Ultra Light || Thin

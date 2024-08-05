@@ -19,10 +19,10 @@
   --scrollbar-track-hover: transparent;
 
   // --------------- default font-family variables ---------------
-
-  --font-family: "BasisGrotesquePro", sans-serif; // var(--font-family);
-  --second-family: "sf-pro-display", sans-serif; // var(--second-family);
-
+  --font-family: "Rubik", sans-serif; // var(--font-family);
+  --second-family: "BasisGrotesquePro", sans-serif; // var(--second-family);
+  --font4: "JetBrainsMono", sans-serif; // var(--font4);
+  
   // --------------- default text color variables ---------------
   --cl-a: #{HexToRGB(#ffffff)}; // rgba(var(--cl-a),1.0);
   --cl-b: #{HexToRGB(#000000)}; // rgba(var(--cl-b),1.0);
@@ -30,7 +30,7 @@
   --cl-d: #{HexToRGB(#5b648a)}; // rgba(var(--cl-d),1.0);
   --cl-e: #{HexToRGB(#7daae0)}; // rgba(var(--cl-e),1.0);
   --cl-f: #{HexToRGB(#090625)}; // rgba(var(--cl-f),1.0);
-  --cl-g: #{HexToRGB(  #fcdb51)}; // rgba(var(--cl-g),1.0);
+  --cl-g: #{HexToRGB(#fcdb51)}; // rgba(var(--cl-g),1.0);
 
   // --------------- default background color variables ---------------
   --bg-a: #{HexToRGB(#ffffff)}; // rgba(var(--bg-a),1.0);
