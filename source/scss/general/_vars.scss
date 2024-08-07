@@ -22,7 +22,8 @@
   --font-family: "Rubik", sans-serif; // var(--font-family);
   --second-family: "BasisGrotesquePro", sans-serif; // var(--second-family);
   --font4: "JetBrainsMono", sans-serif; // var(--font4);
-  
+  --font5: "Muller", sans-serif; // var(--font5);
+
   // --------------- default text color variables ---------------
   --cl-a: #{HexToRGB(#ffffff)}; // rgba(var(--cl-a),1.0);
   --cl-b: #{HexToRGB(#000000)}; // rgba(var(--cl-b),1.0);
@@ -63,5 +64,9 @@
  --gr-l: linear-gradient(226deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-l);
  --gr-m:  linear-gradient(90deg, rgba(1, 115, 250, .8) 0%, rgba(43, 46, 156, 0) 55%); // var(--gr-m);
  --gr-n:  linear-gradient(329deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-n);
-
+ --gr-o:  linear-gradient(0deg, #0173fa 0%, rgba(43, 46, 156, 0) 100%); // var(--gr-o);
+ --gr-p:  linear-gradient(180deg, #9281ff 0%, #7f00ac 100%); // var(--gr-p);
+ --gr-q:  linear-gradient(180deg, #46a6ff 0%, #133eac 100%); // var(--gr-q);
+ --gr-r:  linear-gradient(90deg, rgba(255, 255, 255, 0.19) 0%, rgba(255, 255, 255, 0.1) 100%); // var(--gr-r);
+ --gr-s:  linear-gradient(8deg, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255) 100%); // var(--gr-s);
 }       

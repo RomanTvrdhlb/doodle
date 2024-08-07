@@ -13,6 +13,7 @@
 @include font-face("Rubik",  "RubikRegular", 400, normal);
 @include font-face("Rubik",  "RubikMedium", 500, normal);
 @include font-face("Rubik",  "RubikBold", 700, normal);
+@include font-face("Rubik",  "RubikBlack", 900, normal);
 
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Regular", 400, normal);
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Medium", 500, normal);
@@ -20,6 +21,8 @@
 @include font-face("BasisGrotesquePro",  "BasisGrotesquePro-Black", 900, normal);
 
 @include font-face("JetBrainsMono",  "JetBrainsMono-ExtraBold", 800, normal);
+
+@include font-face("Muller",  "MullerExtraBold", 800, normal);
 
 // 100 – Thin || Hairline
 // 200 – Extra Light || Ultra Light || Thin

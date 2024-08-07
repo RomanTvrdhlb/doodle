@@ -59,6 +59,28 @@
         &:last-of-type{
            color: rgba(var(--cl-c),1.0);
         }
+
+        img{
+            width: 24px;
+            display: flex;
+            aspect-ratio: 1;
+            border-radius: 50%;
+        }
+    }
+
+    &__position{
+        display: inline-block;
+        text-align: center;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 14px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: rgba(var(--cl-a),1.0);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 30px;
     }
 
     &--wallet{
@@ -70,6 +92,61 @@
 
             &__row{
                 grid-template-columns: minmax(70px, .34fr) .5fr .3fr;
+            }
+        }
+    }
+
+    &--leader{
+
+        .history-list{
+            &__name{
+                color: rgba(var(--cl-d),1.0);
+
+                &:first-of-type{
+                    text-align: center;
+                }
+            }
+
+            &__row{
+                grid-template-columns: minmax(24px, 0.14fr) 0.45fr 0.31fr 0.44fr;
+                grid-gap: 10px;
+
+                &--head{
+                    padding: 0 12px 6px 8px;
+                }
+
+                padding: 8px 12px 8px 8px;
+            }
+
+            &__value{
+                font-weight: 500;
+
+                &:last-of-type {
+                    justify-self: end;
+                    color: rgba(var(--cl-a), 1);
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 5px;
+                    min-width: 95px;                    
+                    b{
+                        max-width: 72px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: block;
+                    }
+                }
+
+                &:nth-of-type(2){
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 5px;
+                    b{
+                        max-width: 48px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: block;
+                    }
+                }
             }
         }
     }

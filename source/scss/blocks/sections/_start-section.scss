@@ -40,20 +40,21 @@
 
     .mining{
         z-index: -1;
-        bottom: 0;
         display: flex;
-        position: absolute;
-        left: calc(var(--container-offset) * -1);
+        position: fixed;
+        left: 0;
+        bottom: 0;
         width: 100vw;
+        height: 100svh;
 
         video{
             width: 100vw;
-            height: 100%;
+            height: 100svh;
 
             @media (min-height: (740px)) {
-                height: calc(100svh - 116px - 23px);
+                height: 100svh;
                 object-fit: cover;
-                object-position: 70% 50%;
+                object-position: 30% 50%;
             }
         }
 

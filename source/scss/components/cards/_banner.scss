@@ -1,0 +1,118 @@
+.banner{
+    position: relative;
+    z-index: 2;
+
+    min-height: 193px;
+    background: var(--gr-o);
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 6px;
+    align-items: center;
+    padding: 50px 10px 20px;
+
+    &__bg{
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+
+        img,picture{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 70%;
+        }
+    }
+
+    &__pretitle{
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    &__title{
+        font-style: italic;
+        font-weight: 900;
+        font-size: 44px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), inset 0 1px 0px 0 rgba(255, 255, 255, 0.19);
+        background: var(--gr-p);
+        padding: 1px 14px;
+        border-radius: 5px;
+        height: 48px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__text{
+        font-style: italic;
+        font-weight: 900;
+        font-size: 13px;
+        text-transform: uppercase;
+        position: absolute;
+        right: 9px;
+        bottom: -10px;
+        z-index: 2;
+
+        &::before{
+            inset: -3px -8px;
+            box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25), inset 0 1.5px 0px 0 rgba(255, 255, 255, 0.25);
+            background: var(--gr-q);
+            border-radius: 5px;
+            position: absolute;
+            content: '';
+            z-index: -1;
+            transform: translate(0, -2%) rotate(2deg);
+        }
+    }
+
+    &__label{
+       
+        border-radius: 12px 12px 0 12px;
+        min-width: 227px;
+        height: 43px;
+        width: fit-content;
+        padding: 8px 19px 8px 58px;
+        @include gradient-border(var(--gr-s), .5px);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+     
+        &::before{
+            inset: 0 0 -2px -2px;
+            border-radius: 0px 12px 0 12px;
+        }
+
+        &::after{
+            position: absolute;
+            backdrop-filter: blur(25.298376083374023px);
+            background: var(--gr-r);
+            z-index: -2;
+            content: '';
+            inset: 0;
+            pointer-events: none;
+            border-radius: 0px 12px 0 12px;
+        }
+
+        font-family: var(--font5);
+        font-weight: 800;
+        font-size: 23px;
+        line-height: 111%;
+        text-transform: uppercase;
+
+        img,svg{
+            position: absolute;
+            left: -2px;
+            bottom: -2px;
+            z-index: 3;
+           
+        }
+    }
+}
